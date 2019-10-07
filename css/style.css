@@ -1,0 +1,27 @@
+/* base class */
+.display-inline-block{
+    display: inline-block;
+}
+.vertical-align{
+    vertical-align: bottom;
+}
+.vertical-align{
+    vertical-align: top:
+}
+.vertical-align{
+    vertical-align: middle;
+}
+/* base class */
+
+/* header block */
+.logo{
+    width: 198px;
+}
+.navigation-li{
+    text-decoration: none;
+    display: inline-block;
+}
+.navigation{
+    display: inline-block;
+}
+/* header block */
