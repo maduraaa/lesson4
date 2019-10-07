@@ -2,26 +2,47 @@
 .display-inline-block{
     display: inline-block;
 }
-.vertical-align{
+.vertical-align-b{
     vertical-align: bottom;
 }
-.vertical-align{
-    vertical-align: top:
+.vertical-align-t{
+    vertical-align: top;
 }
-.vertical-align{
+.vertical-align-m{
     vertical-align: middle;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
 }
 /* base class */
 
 /* header block */
+.background-size{
+    width: 1170px;
+}
 .logo{
     width: 198px;
+    height: 60px;
+    display: inline-block;
 }
 .navigation-li{
     text-decoration: none;
     display: inline-block;
 }
-.navigation{
+.social-img{
+    width: 30px;
+}
+.social-ul{
+    display: inline-block;
+}
+.social-li{
     display: inline-block;
 }
 /* header block */
