@@ -35,14 +35,33 @@
 .navigation-li{
     text-decoration: none;
     display: inline-block;
+    font-size: 24px;
+    padding-left: 15px;
 }
 .social-img{
-    width: 30px;
+    width: 20px;
 }
 .social-ul{
     display: inline-block;
 }
 .social-li{
     display: inline-block;
+}
+.navigation{
+    margin-left: 100px;
+    margin-right: 150px;
+}
+.social-a{
+    padding: 0 15px;
+    border-right-style: solid;
+    border-right-color: #3D58A6;
+    border-right-width: 3px;
+}
+.social-li:last-child .social-a{
+    padding-right: 0;
+    border: 0;
+}
+.header{
+    margin-top: 20px;
 }
 /* header block */
