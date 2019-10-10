@@ -32,6 +32,9 @@
     display: block;
     clear: both;
 }
+.relative{
+    position: relative;
+}
 /* base class */
 
 /* header block */
@@ -87,16 +90,34 @@
     background-color: #ffffff;
     top: 0;
     padding: 20px 0;
+    z-index: 20;
 }
 /* header block */
 
 /* banner section */
+.banner-ul{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.white-logo{
+    position: absolute;
+    width: 100px;
+    bottom: 30px;
+    right: 30px;
+}
 .banner-container{
     width:auto;
     height: 520px;
     background-color: #E6E6E6;
     /* margin-top: 26px; */
     padding-top: 26px;
+    z-index: 10;
 }
 .banner-img{
     width: 1170px;
