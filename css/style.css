@@ -34,8 +34,10 @@
 }
 /* base class */
 
-
 /* header block */
+.body-banner{
+    padding-top: 100px;
+}
 .background-size{
     width: 1170px;
 }
@@ -80,7 +82,11 @@
     border: 0;
 }
 .header{
-    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    padding: 20px 0;
 }
 /* header block */
 
@@ -89,7 +95,7 @@
     width:auto;
     height: 520px;
     background-color: #E6E6E6;
-    margin-top: 26px;
+    /* margin-top: 26px; */
     padding-top: 26px;
 }
 .banner-img{
