@@ -46,3 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+input, textarea, button{
+	border: 0;
+	outline: 0;
+}
