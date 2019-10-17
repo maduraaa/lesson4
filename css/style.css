@@ -35,6 +35,9 @@
 .relative{
     position: relative;
 }
+.text-decoration{
+    text-decoration: none;
+}
 /* base class */
 
 /* header block */
@@ -252,3 +255,39 @@
     font-size: 12px;
 }
 /* footer block */
+
+/* contact page */
+           /* navigation box */
+              .navigation-box{
+                  background-color: #EE4036 ;
+              }
+              .navigation-box-a{
+                  font-size: 22px;
+                  color: #ffffff;
+                  line-height: 90px;
+                  font-family: 'Roboto', sans-serif;
+                  text-transform: uppercase;
+              }
+              /* .see-next-a{
+                  line-height: 90px;
+                  color: #ffffff;
+                  font-size: 22px;
+                  font-family: 'Roboto', sans-serif;
+                  text-transform: lowercase;
+                  text-decoration: none;
+              }
+              .navigation-box-li .navigation-box-a::before{
+                  content:" ";
+                  background-image: url(../img/arrow-right.svg);
+                  height: 14px;
+                  width: 23px;
+                  display: inline-block;
+                  margin-right: 10px;
+                  margin-left: 10px;
+              }
+              .navigation-box-li:first-child .navigation-box-a::before{
+                  display: none;
+              } */
+           /* navigation box */
+
+/* contact page */
