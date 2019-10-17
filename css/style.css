@@ -289,5 +289,17 @@
                   display: none;
               } */
            /* navigation box */
+/*map bolock  */
+.map-block{
+    background-color: #E6E6E6;
+    padding: 30px 0;
+}
+.map-block .map{
+    width: 1170px;
+    height: 455px;
+    margin: auto;
+    display: block;
+}
+/*map bolock  */
 
 /* contact page */
