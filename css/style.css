@@ -26,7 +26,8 @@
     float: right;
 }
 .container{
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
     margin: 0 auto;
 }
 .background-size{
@@ -60,9 +61,9 @@
 .body-banner{
     padding-top: 100px;
 }
-.background-size{
+/* .background-size{
     width: 1170px;
-}
+} */
 .logo{
     width: 198px;
     height: 60px;
@@ -106,6 +107,40 @@
     padding: 20px 0;
     z-index: 20;
 }
+.burger-menu{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #363E97;
+    cursor: pointer;
+    display: none;
+}
+.burger-menu .arrow{
+    height: 5px;
+    width: 40px;
+    background-color: #363E97 ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.03s linear;
+    transform: translate(-50%, -50%) rotate(0);
+}
+.burger-menu .arrow:first-child{
+    top: 30%;
+}
+.burger-menu .arrow:last-child{
+    top: 70%;
+}
+.burger-menu:hover .arrow:first-child{
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.burger-menu:hover .arrow:last-child{
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.burger-menu:hover :nth-child(2){
+    display: none;
+}
 /* header block */
 
 /* banner section */
@@ -126,16 +161,15 @@
     right: 30px;
 }
 .banner-container{
-    width:auto;
-    height: 520px;
+    /* width:auto; */
+    /* height: 520px; */
     background-color: #E6E6E6;
-    /* margin-top: 26px; */
-    padding-top: 26px;
     z-index: 10;
+    padding: 30px 0;
+    margin-top: 100px;
 }
 .banner-img{
     width: 1170px;
-    height: 460px;
 }
 /* banner section */
 

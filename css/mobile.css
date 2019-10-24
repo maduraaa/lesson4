@@ -1,0 +1,24 @@
+@media (max-width: 1200px){
+    .container{
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 1024px){
+    .navigation{
+        display: none;
+    }
+    .banner-img{
+        width: 948px;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .logo-wrapper{
+        margin: 0 auto 0 0;
+    }
+    .social-ul{
+        margin-right: 45px;
+    }
+  
+}
