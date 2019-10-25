@@ -6,6 +6,9 @@
     .news-section .article-wrapper{
         flex: 0 0 23% ;
     }
+    .video-iframe{
+        flex: 0 0 48%;
+    }
 }
 
 @media (max-width: 1024px){
@@ -54,6 +57,12 @@
     }
     .lowercase{
         display: none;
+    }
+    .video-section .video-title{
+        display: inline-block;
+    }
+    .video-section .lowercase{
+        display: inline-block;
     }
     .video-article-wrapper{
         flex-direction: column;
