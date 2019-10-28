@@ -106,6 +106,7 @@
 }
 
 @media (max-width: 480px){
+    
     .social-li:not(.search){
         display: none;
     }
@@ -145,5 +146,32 @@
     .mobile-social-youtube{
         height: 60px;
         padding-top: 50px;
+    }
+    .left-arrow{
+      display: none;
+    }
+    .right-arrow{
+        display: none;
+    }
+    .video-section{
+        display: none; flex-direction: column
+    }
+    .news-section{
+        display: flex;
+        flex: 0 0 100%;
+    }
+    .article-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .article-wrapper:last-child{
+        
+    }
+    .news-section .container{
+        width: 100%;
+    }
+    .news-section .article{
+        margin-left: 0px;
     }
 }
