@@ -58,6 +58,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.index-page-logo{
+    width: 200px;
+}
 .body-banner{
     padding-top: 100px;
 }
