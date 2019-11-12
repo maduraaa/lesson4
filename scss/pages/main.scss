@@ -98,6 +98,7 @@
 .article-wrapper{
     display: flex;
     justify-content: space-between;
+    // @include border(10px, solid);
 }
 .video-wrapper{
     display: flex;
